@@ -31,6 +31,7 @@ const verStr = [
 program.version(verStr, "-V,--version")
 
 program.option('-i, --integer <n>', 'An integer argument')
+program.option('init', 'Init a new project for testing')
 
 const bindHandler = {
     init() {
