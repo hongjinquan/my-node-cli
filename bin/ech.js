@@ -84,4 +84,7 @@ program
         }
     })
 
+if (process.argv.length <= 2) {
+    process.argv.push("-h")
+}
 program.parse(process.argv)
